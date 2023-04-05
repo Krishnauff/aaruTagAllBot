@@ -96,7 +96,7 @@ async def all(event):
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
     if usrnum == 5:
       if mode == "text_on_cmd":
-        txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [𝐊𝐑𝐈𝐒𝐇𝐍𝐀](https://t.me/Ajanabee_Duniya)",✌️🔥"
+        txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [𝐊𝐑𝐈𝐒𝐇𝐍𝐀]",✌️🔥"
         await client.send_message(chat_id, txt)
       elif mode == "text_on_reply":
         await msg.reply(usrtxt)
