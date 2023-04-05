@@ -33,14 +33,14 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of TagAllBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [𝗗𝗘𝗩𝗜𝗟 𝗛𝗔𝗖𝗞𝗘𝗥](https://t.me/JaiHindChatting) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
+  helptext = "**Help Menu of TagAllBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [𝐊𝐑𝐈𝐒𝐇𝐍𝐀 𝗛𝗔𝗖𝗞𝗘𝗥](https://t.me/Ajanabee_Duniya) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('✨𝙎𝙐𝙋𝙋𝙊𝙍𝙏', 'https://t.me/JaiHindChatting'),
-        Button.url('📦 𝙎𝙊𝙐𝙍𝘾𝙀', 'https://github.com/rakeshyt/DevilTagAllBot')
+        Button.url('✨𝙎𝙐𝙋𝙋𝙊𝙍𝙏', 'https://t.me/Ajanabee_Duniya'),
+        Button.url('📦 𝙎𝙊𝙐𝙍𝘾𝙀', 'https://te.legra.ph/file/34f671dae6f5ee9d3c838.mp4')
       ]
     )
   )
@@ -49,7 +49,7 @@ async def help(event):
 async def all(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command Can Be Use In Groups And Channels @JaiHindChatting !__")
+    return await event.respond("__This command Can Be Use In Groups And Channels @Ajanabee_Duniya !__")
   
   is_admin = False
   try:
